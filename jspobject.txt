@@ -1,0 +1,29 @@
+编译指令
+<@page //errorpage>
+<@include>
+
+注释
+<%! %>
+
+计算指令
+<%= %>
+
+动作指令
+<%
+foreward
+useBean
+include
+%>
+jsp程序段
+<%
+%>
+<!-- out //像客户端浏览器输出各种类型的数据
+	request //来自客户端请求包括的各种信息
+	reponse //封装了服务器的响应信息
+	exception //封装了jsp程序执行中的异常与错误
+	config //封装了应用程序的配置信息
+	page   //指向当前jsp程序本身
+	session //保存会话信息，在同一用户不同jsp程序或者请求间共享信息
+	application //当前应用程序的上下文可以在不同的用户间共享信息
+	pageContext //对 jsp所有对象以及命名空间的访问
+ -->
