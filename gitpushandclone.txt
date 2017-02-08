@@ -1,0 +1,8 @@
+git status
+git add 
+git commit -m
+git checkout
+ssh-keygen -t rsa -C "youremail@example.com"
+
+git remote add origin git@github.com:michaelliao/learngit.git
+git push origin master
